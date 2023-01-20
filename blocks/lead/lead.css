@@ -2,9 +2,8 @@
     max-width: 1086px;
     box-sizing: border-box;
     margin: 0 auto;
-    padding: 0 48px;
+    padding: 0 48px 92px 48px;
     font-size: 0;
-    padding-bottom: 92px;
 }
 
 @media screen and (max-width: 968px) {

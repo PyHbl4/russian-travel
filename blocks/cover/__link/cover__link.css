@@ -1,0 +1,33 @@
+.cover__link {
+    color: inherit;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.cover__link::after {
+    content: '';
+    display: block;
+    position: absolute;
+    z-index: 0;
+    background: #2A2C2F;
+    transition: opacity .4s;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.cover__link:hover::after {
+    opacity: .8;
+}
+
+@media screen and (max-width: 570px) {
+    .cover__link {
+        gap: 16px;
+    }
+}

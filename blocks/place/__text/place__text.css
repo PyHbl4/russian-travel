@@ -4,6 +4,10 @@
     line-height: 1.63;
 }
 
+.place__text:last-child {
+    margin: 0;
+}
+
 @media screen and (max-width: 968px) {
     .place__text {
         font-size: 16px;

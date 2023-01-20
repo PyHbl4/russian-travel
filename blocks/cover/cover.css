@@ -2,24 +2,33 @@
     max-width: 1184px;
     position: relative;
     margin: 0 auto 92px auto;
-    aspect-ratio: 1184 / 740;
+    padding: 245px 0;
     background-image: url(../../images/cover-trains.jpg);
     background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
+    background-position: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .cover {
+        padding: 195px 0;
+    }
+}
+
+@media screen and (max-width: 968px) {
+    .cover {
+        padding: 115px 0;
+    }
 }
 
 @media screen and (max-width: 740px) {
     .cover {
         margin: 0 auto 64px auto;
+        padding: 80px 0;
     }
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 500px) {
     .cover {
-        gap: 16px;
+        padding: 33px 0;
     }
 }
