@@ -5,3 +5,9 @@
     gap: 12px;
     justify-content: end;
 }
+
+@media screen and (max-width: 425px) {
+    .place__website {
+        padding: 0 16px;
+    }
+}

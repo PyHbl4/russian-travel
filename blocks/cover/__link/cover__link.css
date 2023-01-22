@@ -15,7 +15,7 @@
     z-index: 0;
     background: #2A2C2F;
     transition: opacity .4s;
-    opacity: 0;
+    opacity: .3;
     top: 0;
     left: 0;
     width: 100%;

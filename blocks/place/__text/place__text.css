@@ -16,5 +16,6 @@
 @media screen and (max-width: 425px) {
     .place__text {
         margin-bottom: 25px;
+        padding: 0 16px;
     }
 }

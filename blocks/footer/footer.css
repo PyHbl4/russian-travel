@@ -20,3 +20,9 @@
         align-items: start;
     }
 }
+
+@media screen and (max-width: 425px) {
+    .footer {
+        padding: 0 16px 24px 16px;
+    }
+}
